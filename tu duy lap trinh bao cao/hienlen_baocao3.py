@@ -67,9 +67,9 @@ class UngDungGoiYMonAn(QMainWindow):
 
         # 4a. Cập nhật 2 label hiển thị với 2 biến kết quả mới
         # self.ui.hiennlchinh là label có text "Nguyên liệu thịt: "
-        self.ui.hiennlchinh.setText(f"Nguyên liệu thịt: {thit_da_nhan_dien}")
+        self.ui.hiennlchinh.setText(f"Nguyên liệu chính: {thit_da_nhan_dien}")
         # self.ui.hiennlphu là label có text "Nguyên liệu rau: "
-        self.ui.hiennlphu.setText(f"Nguyên liệu rau: {rau_va_giavi_da_nhan_dien}")
+        self.ui.hiennlphu.setText(f"Nguyên liệu phụ: {rau_va_giavi_da_nhan_dien}")
 
         # (Thêm code ép màu đen để phòng lỗi Dark Mode)
         self.ui.hiennlchinh.setStyleSheet("color: black;")
